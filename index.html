@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo">Mahesh Paul</a>
+            <div class="nav-link" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href="">Hire me</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Welcome to My Portfolio</h1>
+            <p>Hi, I am Mahesh Paul. I make intro/outro videos, 3d modeling, Website designing and more..
+        </p>
+        </div>
+
+    </section>
+<!-------Works----->
+    <section class="works">
+        <h1><u>Works I have done</u></h1>
+        <div class="row">
+            <div class="colm">
+                <img src="img/3dmodeling.jpeg">
+                <div class="layer">
+                    <a href="3dmodeling.html"><h3>3D Modeling</h3></a>
+                </div>
+            </div>
+            <div class="colm">
+                <img src="img/coding.jpeg">
+                <div class="layer">
+                    <a href="coding.html"><h3>Coding</h3></a>
+                </div>
+            </div>
+            <div class="colm">
+                <img src="img/videoediting.jpeg">
+                <div class="layer">
+                    <a href="video editing.html"><h3>Video Editing</h3></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-------Hire me------->
+<section class="hire">
+    <div>
+    <h1>Hire me</h1>
+    <p>You can hire me at Fiverr</p>
+    <a href="https://www.fiverr.com/cityisbetter" target="_blank" class="btn">My Fiverr Profile</a>
+</div>
+</section>
+<!-------About------->
+<section class="about">
+    <h1>About Me</h1>
+    <p> I am Mahesh Paul, I'm 17 years old, my birthday is 13th of April.
+     I am a student,I taught myself to use Blender and learn coding from youtube.
+      My aim is to join Tech gaints. My hobby is to learn new things in coding or anything that is related to computer.
+  </p>
+</section>
+<!--------contact---------->
+<section class="cont">
+    <h1>Contact Me</h1>
+    <p>You can contact me in the social media that I have linked below and you can also contact me through mail</p>
+    <div class="icons">
+        <a href="https://twitter.com/CityIsBetter_" target="_blank">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/mahesh_paul_j/" target="_blank">
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://github.com/CityIsBetter" target="_blank">
+        <i class="fa fa-github"></i>
+        </a>
+        <p><i class="fa fa-envelope"></i> - mahesh.paul.j@gmail.com</p>
+        <p>Made with <i class="fa fa-heart"></i></p>
+
+    </div>
+</section>
+<!------Javascript for menu----->
+<script>
+    var navlinks = document.getElementById('navlinks');
+    function showmenu(){
+        navlinks.style.right= "0";
+    }
+    function hidemenu(){
+        navlinks.style.right= "-200px";
+    }
+</script>
+
+
+</body>
+</html>
