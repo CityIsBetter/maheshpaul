@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
@@ -16,16 +16,16 @@
             <div class="nav-link" id="navlinks">
             <i class="fa fa-times" onclick="hidemenu()"></i>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Works</a></li>
-                <li><a href="">Hire me</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#hire">Hire me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             </div>
             <i class="fa fa-bars" onclick="showmenu()"></i>
         </nav>
-        <div class="text-box">
+        <div class="text-box" id="home">
             <h1> Welcome to My Portfolio</h1>
             <p>Hi, I am Mahesh Paul. I make intro/outro videos, 3d modeling, Website designing and more..
         </p>
@@ -33,32 +33,32 @@
 
     </section>
 <!-------Works----->
-    <section class="works">
+    <section class="works" id="works">
         <h1><u>Works I have done</u></h1>
         <div class="row">
             <div class="colm">
-                <img src="img/3dmodeling.jpeg">
+                <img src="assets/img/3dmodeling.jpeg">
                 <div class="layer">
-                    <a href="3dmodeling.html"><h3>3D Modeling</h3></a>
+                    <a href="assets/html/3dmodeling.html"><h3>3D Modeling</h3></a>
                 </div>
             </div>
             <div class="colm">
-                <img src="img/coding.jpeg">
+                <img src="assets/img/coding.jpeg">
                 <div class="layer">
-                    <a href="coding.html"><h3>Coding</h3></a>
+                    <a href="assets/html/coding.html"><h3>Coding</h3></a>
                 </div>
             </div>
             <div class="colm">
-                <img src="img/videoediting.jpeg">
+                <img src="assets/img/videoediting.jpeg">
                 <div class="layer">
-                    <a href="video editing.html"><h3>Video Editing</h3></a>
+                    <a href="assets/html/video editing.html"><h3>Video Editing</h3></a>
                 </div>
             </div>
         </div>
     </section>
 
 <!-------Hire me------->
-<section class="hire">
+<section class="hire" id="hire">
     <div>
     <h1>Hire me</h1>
     <p>You can hire me at Fiverr</p>
@@ -66,7 +66,7 @@
 </div>
 </section>
 <!-------About------->
-<section class="about">
+<section class="about" id="about">
     <h1>About Me</h1>
     <p> I am Mahesh Paul, I'm 17 years old, my birthday is 13th of April.
      I am a student,I taught myself to use Blender and learn coding from youtube.
@@ -74,7 +74,7 @@
   </p>
 </section>
 <!--------contact---------->
-<section class="cont">
+<section class="cont" id="contact">
     <h1>Contact Me</h1>
     <p>You can contact me in the social media that I have linked below and you can also contact me through mail</p>
     <div class="icons">
