@@ -103,8 +103,24 @@ nav{
     color: #000;
     position: relative;
     text-align: center;
-    padding: 25px
+    padding: 30px
 }
 .lfc h1{
-    font-size: 35px;
+    font-size: 25px;
+}
+.lfc a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 34px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+.lfc a:hover{
+    border: 1px solid #FFF;
+    color: #FFF;
+    background: #551A8B;
+    transition: 0.5s;
 }
